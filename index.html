@@ -15,6 +15,19 @@
 <body>
 
     <!-- Navbar -->
+    <div id="menu" class="menu">
+        <div id="menu-bar" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
+            <ul id="nav" class="nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>        
+        </div>
+    </div>
     <!-- End of Navbar -->
 
     <!-- Header -->
@@ -137,7 +150,7 @@
         <a href="#"><i class="fab fa-twitter twitter"></i></a>       
         <a href="#"><i class="fab fa-instagram instagram"></i></a>
         <a href="#"><i class="fab fa-youtube youtube"></i></a>
-        <a href="#"><i class="fab fa-google-plus  plus"></i></a>
+        <!-- <a href="#"><i class="fab fa-google-plus  plus"></i></a> -->
         
 
     </section>
@@ -153,38 +166,157 @@
         </article>
 
         <article class="number">
-            <i class="fas fa-cloud-meatball"></i>
-            <p>50</p>
-            <h3>Meat Dishes</h3>
+            <i class="fas fa-cheese"></i>
+            <p>35</p>
+            <h3>cheese Dishes</h3>
         </article>
 
         <article class="number">
-            <i class="fas fa-cloud-meatball"></i>
-            <p>50</p>
-            <h3>Meat Dishes</h3>
+            <i class="fas fa-pizza-slice"></i>
+            <p>35</p>
+            <h3>Pizzas</h3>
         </article>
 
         <article class="number">
-            <i class="fas fa-cloud-meatball"></i>
-            <p>50</p>
-            <h3>Meat Dishes</h3>
+            <i class="fas fa-ice-cream"></i>
+            <p>10</p>
+            <h3>Desserts</h3>
         </article>
 
-        <article class="number">
-            <i class="fas fa-cloud-meatball"></i>
-            <p>50</p>
-            <h3>Meat Dishes</h3>
-        </article>
-
-        <article class="number">
-            <i class="fas fa-cloud-meatball"></i>
-            <p>50</p>
-            <h3>Meat Dishes</h3>
-        </article>
     </section>
-
     <!-- End of numbers -->
 
+    <!-- Card Section -->
+    <section id ="food">
+        <div>
+            <h2 class="title-text">Food Fusion</h2>
+        </div>
+
+        <div class="food-container">
+            <!-- article -->
+            <article class="food-card">
+                <img src="./images/food10.jpg" alt="" class="food-img" alt="">
+                <div class="img-text">
+                    <h1>Breakfast</h1>
+                </div>
+
+                <div class="img-footer">
+                    <div class="footer-icon">
+                        <i class="fas fa-dollar-sign">25</i>
+                    </div>
+                    <div class="footer-btn">
+                        <button type="button" class="food-btn">Order Now</button>
+                    </div>
+                </div>
+
+            </article>
+            <!-- End of article -->
+
+            <!-- article -->
+            <article class="food-card">
+                <img src="./images/food8.jpg" alt="" class="food-img" alt="">
+                <div class="img-text">
+                    <h1>Lunch</h1>
+                </div>
+
+                <div class="img-footer">
+                    <div class="footer-icon">
+                        <i class="fas fa-dollar-sign">25</i>
+                    </div>
+                    <div class="footer-btn">
+                        <button type="button" class="food-btn">Lunch</button>
+                    </div>
+                </div>
+
+            </article>
+            <!-- End of article -->
+
+            <!-- article -->
+            <article class="food-card">
+                <img src="./images/food9.jpg" alt="" class="food-img" alt="">
+                <div class="img-text">
+                    <h1>Dinner</h1>
+                </div>
+
+                <div class="img-footer">
+                    <div class="footer-icon">
+                        <i class="fas fa-dollar-sign">25</i>
+                    </div>
+                    <div class="footer-btn">
+                        <button type="button" class="food-btn">Dinner</button>
+                    </div>
+                </div>
+
+            </article>
+            <!-- End of article -->
+        </div>
+
+    </section>
+    <!-- End of Card -->
+
+    <!-- Gallery -->
+    <section id="gallery">
+        <div>
+            <h2 class="title-text">Main Cuisines</h2>
+        </div>
+
+        <div id="gallery-centre">
+            <article class="gallery-item">
+                <a href="./images/food3.jpg">
+                    <img src="./images/food3.jpg" alt="">
+                </a>
+            </article>
+
+            <article class="gallery-item">
+                <a href="./images/food6.jpg">
+                    <img src="./images/food6.jpg" alt="">
+                </a>
+            </article>
+
+            <article class="gallery-item">
+                <a href="./images/food10.jpg">
+                    <img src="./images/food10.jpg" alt="">
+                </a>
+            </article>
+
+            <article class="gallery-item">
+                <a href="./images/food13.jpg">
+                    <img src="./images/food13.jpg" alt="">
+                </a>
+            </article>
+
+            <article class="gallery-item">
+                <a href="./images/food11.jpg">
+                    <img src="./images/food11.jpg" alt="">
+                </a>
+            </article>
+
+            <article class="gallery-item">
+                <a href="./images/food5.jpg">
+                    <img src="./images/food5.jpg" alt="">
+                </a>
+            </article>
+
+            <article class="gallery-item">
+                <a href="./images/food4.jpg">
+                    <img src="./images/food4.jpg" alt="">
+                </a>
+            </article>
+
+            <article class="gallery-item">
+                <a href="./images/food2.jpg">
+                    <img src="./images/food2.jpg" alt="">
+                </a>
+            </article>
+        </div>
+
+    </section>
+
+
+
+    <!-- End gallery -->
+    
+    <script src="./app.js"></script>
 </body>
 
 </html>

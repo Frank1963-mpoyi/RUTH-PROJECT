@@ -9,7 +9,7 @@ html {
 } */
 
 .title-text {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -204,6 +204,7 @@ nav li{
 
 
 @media only screen and (min-width: 576px){
+    
     .about-center{
         display: flex;
         flex-wrap: wrap;
@@ -221,6 +222,11 @@ nav li{
 } 
 
 @media screen and (min-width:972px) {
+    
+.title-text {
+    font-size: 40px;
+    text-align: center;
+}
     .about {
         flex: 0 0 calc (33.3% - 16px);
     }
@@ -285,6 +291,7 @@ nav li{
 @media screen and (min-width: 776px){
     .menu{
         display: flex;
+        margin-right: 0px;
     }
     .menu-text{
         flex: 0 0 30%;
@@ -524,3 +531,16 @@ nav li{
 
 
 /* ==========End of Gallery section */
+
+/* =======footer==== */
+.footer{
+    background: #000;
+    text-align: center;
+}
+
+.footer-text{
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    margin-top: 20px;
+}

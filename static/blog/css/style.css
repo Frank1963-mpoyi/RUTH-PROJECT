@@ -110,6 +110,7 @@
     z-index: 1;
 
 }
+
 #carouselExampleIndicators .carousel-inner .carousel-item{
     position: relative;
     height: 100%;
@@ -118,6 +119,8 @@
     background-size: 100% 100%;
     background-position: center;
 }
+
+
 
 
 #carouselExampleIndicators .carousel-inner .carousel-item:nth-child(2){
@@ -525,11 +528,7 @@
     transition: background-color 200ms linear;
   }
 
-
-
-
-
-
+/* class="img-fluid img-thumbnail" for bootstrap */
 
 
 

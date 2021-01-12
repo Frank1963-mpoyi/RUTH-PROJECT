@@ -22,6 +22,17 @@
     {% block based_head %} {% endblock %}
     
     <title>{% block title %} Ruth {% endblock title %} | RUTH RESTAURANT </title>
+
+    <script>
+        $(function () {
+            $(document).scroll(function () {
+            var $nav = $(".navbar-fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+            });
+        });
+    </script>
+
+
 </head>
 
 <body>

@@ -10,7 +10,7 @@
     position: fixed;
     top: 0;
     z-index: 99999; 
-    padding: 40px 0;
+    /* padding: 40px 0; */
 }
 
 .navbar .logo{
@@ -520,7 +520,10 @@
 }
 
 
-
+.navbar-fixed-top.scrolled {
+    background-color: #fff !important;
+    transition: background-color 200ms linear;
+  }
 
 
 
